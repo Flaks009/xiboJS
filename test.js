@@ -12,7 +12,7 @@ function megasena(){
       dados = JSON.parse(this.response);
       for (var k in dados.dezenas){
         var h1 = document.createElement('h1');
-        h1.className += "lead mr-4 rounded-circle p border border-success"
+        h1.className += "lead mr-1 rounded-circle p border border-success"
         var dezenas = document.createTextNode(dados.dezenas[k]);
         h1.appendChild(dezenas);
         box = document.getElementById('resultado')
@@ -45,7 +45,7 @@ function quina(){
       dados = JSON.parse(this.response);
       for (var j in dados.dezenas){
         var h1 = document.createElement('h1');
-        h1.className += "lead mr-4 rounded-circle p border border-primary"
+        h1.className += "lead mr-1 rounded-circle p border border-primary"
         var dezenas = document.createTextNode(dados.dezenas[j]);
         h1.appendChild(dezenas);
         box = document.getElementById('resultado2')
