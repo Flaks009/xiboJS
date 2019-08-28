@@ -3,7 +3,7 @@ function megasena(){
 
   var xhr = new XMLHttpRequest();
   method = "GET";
-  url = "http://apiloterias.com.br/app/resultado?loteria=megasena&token=6llMhR6vmZWXFtI"
+  url = "https://apiloterias.com.br/app/resultado?loteria=megasena&token=6llMhR6vmZWXFtI"
 
 
   loterias = xhr.open (method, url, true);
@@ -36,7 +36,7 @@ function quina(){
   
   var xhr = new XMLHttpRequest();
   method = "GET";
-  url2 = "http://apiloterias.com.br/app/resultado?loteria=quina&token=6llMhR6vmZWXFtI"
+  url2 = "https://apiloterias.com.br/app/resultado?loteria=quina&token=6llMhR6vmZWXFtI"
   
   
   loterias = xhr.open (method, url2, true);
